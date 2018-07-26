@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="52B92CA2-B344-B537-D728-7F0D5BCC8208">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 20:11:07 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<sourcePk>5337E720-C10F-016D-E206-4378FAF75586</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78A5D363-5593-19B0-DC0A-153C93938E0F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>38AAFBDD-F053-1784-6598-8BF44AA48052</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

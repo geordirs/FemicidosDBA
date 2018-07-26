@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0CEE02C-9552-85B2-7801-A3C11DBB5175" name="Victima">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>5EBD09EB-E448-1268-722B-FE837C89E68F</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9CDA660-DD8A-7512-F31F-7605B267658A">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>11C290F6-99BB-2D7C-2853-DDC8316E50FA</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_victima" id="810A0F62-AEF4-063F-C901-E367DFF92D6B">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>C61B2861-1669-47FD-17E0-41E6B96B03B1</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos_victima" id="426CEDFE-8748-3516-0A8F-252A9C408CE8">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>5CC3BD77-B9AF-6C5F-848B-14661355AA23</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad_victima" id="0676E10C-567E-342D-0E5F-E64182EA4E35">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>19FA1507-8508-951B-7C44-CDB017C5BE65</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad_victima" id="CDDA2935-9087-572B-7FA8-B53313585645">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>C5709497-30E7-1DA0-2523-2C06F9175F4D</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ocupacion_victima" id="F1ED85B3-35D2-D249-D738-6FCA20FDE74D">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>B1DACE99-B8D4-E22E-CF79-1ACBD6EC362C</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C056FFD-0E9E-3C0A-AE7D-C993746954BA" name="Victima_PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>A08E2550-3F6C-F788-90C6-4F67D73E3DA6</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9CDA660-DD8A-7512-F31F-7605B267658A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

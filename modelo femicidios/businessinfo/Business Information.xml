@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="524EA6C3-EBD9-260D-F2EB-95210723C7AA">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:32:48 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

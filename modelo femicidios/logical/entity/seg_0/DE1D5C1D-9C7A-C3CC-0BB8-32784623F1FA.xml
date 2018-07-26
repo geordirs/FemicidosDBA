@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE1D5C1D-9C7A-C3CC-0BB8-32784623F1FA" name="Femicidio">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:41:26 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9BCFBCD1-88C9-4E8E-B188-C141E4AE0BE5">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:41:31 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lugar_femicidio" id="011CD24F-B25B-839C-01A9-B84762FB45BC">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:42:26 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_femicidio" id="B2C7112B-8DD9-069B-14E0-102DDCC4A9B4">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:42:59 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="causa_muerte" id="38622276-287A-DC6D-F313-0A5A2FC8DFC9">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:43:41 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_muerte" id="E8FDB036-EA50-EACE-5039-2C9C93D1E904">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:44:16 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_arma_usada" id="CFB8DB0C-6F91-185E-2DB6-B8F123053556">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:45:24 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="agresion_previa" id="DAEF7871-254C-B5B4-73D9-2507FC9C7485">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:45:49 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_caso" id="D75D5AE7-35E1-B187-D6F8-A328DC19A6F5">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:46:24 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sentencia" id="1DFB6B86-D618-86E2-2166-D9A0CC4D78C8">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:46:52 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8242FD63-C646-D9A0-4241-78533D9EC81A">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 20:11:14 UTC</createdTime>
+<generatorID>F2AFEEC7-E13E-ADC9-2A2B-725F2BF774CF</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<referedAttribute>73CF9632-DF8F-4BB4-3DAF-CC988768A546</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="88C98401-A440-2672-EAE7-97EE55D65B2E" name="Femicidio PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:42:07 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BCFBCD1-88C9-4E8E-B188-C141E4AE0BE5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

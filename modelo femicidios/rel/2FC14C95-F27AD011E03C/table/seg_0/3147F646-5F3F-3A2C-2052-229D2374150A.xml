@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3147F646-5F3F-3A2C-2052-229D2374150A" name="femicidio_has_testigos">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<ordsAlias>relation_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Femicidio_id" id="2E3B55CE-EF54-A674-AE35-A1826127210E">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A5954E1-FEAD-0EC2-7D40-97BCD383A292" referredColumn="5027ECAA-ACE6-6139-F1D8-BCF4594AF11B"/>
+</associations>
+</Column>
+<Column name="Testigos_id" id="A2688282-C206-F799-1006-2499422DE077">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52156474-3CE3-8BD8-5E85-1A92C757ADBA" referredColumn="7172398F-3C16-0D08-3C19-A4B4F3D20D92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38DB0AF5-6C2C-09BE-ACB8-AEFA5684821E" name="Relation_7_PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E3B55CE-EF54-A674-AE35-A1826127210E"/>
+<colUsage columnID="A2688282-C206-F799-1006-2499422DE077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4547C1C3-A9BB-3057-6038-A3BB1B005B9E" name="Relation_7_Femicidio_FK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>A14B9188-CF5F-8E66-4751-6AEB114FDA55</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E3B55CE-EF54-A674-AE35-A1826127210E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="531A694B-0C51-E5B4-9082-330F884A426B" name="Relation_7_Testigos_FK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>A14B9188-CF5F-8E66-4751-6AEB114FDA55</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2688282-C206-F799-1006-2499422DE077"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

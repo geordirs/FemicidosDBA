@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB9B65D4-123A-A101-6B3A-7B6FD2E01240" name="Pais">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>23B4F360-34CF-47D2-7F43-F4DE82B405DC</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2F471F49-9B8B-4720-BDDD-4C963B7F8A8A">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>087EA62D-2300-9F0F-70A4-C471C50AB069</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="CFDE9155-67B0-EB0D-D189-E53B46378B81">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>FE6D07FE-D280-DA34-FACC-23D15F4F62CE</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE178E31-7C72-AA5D-7BB5-DB64221D3020" name="Pais_PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>B3CE9C29-221E-AACE-1D11-14CB56F89A5E</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F471F49-9B8B-4720-BDDD-4C963B7F8A8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

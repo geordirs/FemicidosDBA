@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="38AAFBDD-F053-1784-6598-8BF44AA48052" name="Barrio">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:40:29 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="73CF9632-DF8F-4BB4-3DAF-CC988768A546">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:40:37 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="barrio" id="6459E7B9-8925-3A54-DE0A-74112EB33C76">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:40:49 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8CF9FC48-E6CA-3800-9194-EA8C91A8D646">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 20:11:07 UTC</createdTime>
+<generatorID>52B92CA2-B344-B537-D728-7F0D5BCC8208</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<referedAttribute>311968BB-2A27-F0CD-B4F5-418391B766E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15B4D434-7A48-36B6-79CC-9ACB9E4BC7A4" name="Barrio PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:40:45 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<engineerTo>
+<item key="2FC14C95-F642-FFE5-9EEB-F27AD011E03C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73CF9632-DF8F-4BB4-3DAF-CC988768A546</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

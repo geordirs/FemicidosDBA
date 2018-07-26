@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="42F5CBCC-B35D-BA40-05D1-21F2BD6656EA" containerWithKeyObject="63BC3F17-B2A5-C793-C90C-55B0C29B2CFD" localFKIndex="53C12A41-9B8E-AC15-9C20-B94B26AC3F11" name="Municipio_Departamento_FK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>96F2B8BC-8747-5FF0-0756-45BC9FA9AEB1</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<referredTableLongName>Departamento</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B3950541-DA36-EFE9-CFB4-43000A018C1D</referredTableID>
+<keyObject>49118D5F-7D47-D456-1C89-8342828D53F5</keyObject>
+<referredKeyID>49118D5F-7D47-D456-1C89-8342828D53F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

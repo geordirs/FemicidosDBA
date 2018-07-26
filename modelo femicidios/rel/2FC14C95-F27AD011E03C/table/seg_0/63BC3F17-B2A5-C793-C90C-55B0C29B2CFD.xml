@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63BC3F17-B2A5-C793-C90C-55B0C29B2CFD" name="Municipio">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>78A5D363-5593-19B0-DC0A-153C93938E0F</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="09B446B4-4848-F36D-F3E9-52F5AB00F4AC">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>311968BB-2A27-F0CD-B4F5-418391B766E9</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="municipio" id="88EFE357-35AC-7C0B-729A-E6A7F104F80D">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>4B3CB270-F5D5-50C9-5164-0E528403E6A5</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_id" id="1F0F2347-E9B8-6D5F-FBDF-E39FCB5E1754">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>8903E885-1055-91A8-C563-5D5C7656DBDE</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42F5CBCC-B35D-BA40-05D1-21F2BD6656EA" referredColumn="ABF1821D-28FE-DA22-79E6-3B7F5EB99BE8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8D04EE47-0E40-B413-D89D-AF18E93B98F0" name="Municipio_PK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>5337E720-C10F-016D-E206-4378FAF75586</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B446B4-4848-F36D-F3E9-52F5AB00F4AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53C12A41-9B8E-AC15-9C20-B94B26AC3F11" name="Municipio_Departamento_FK">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 23:18:04 UTC</createdTime>
+<generatorID>96F2B8BC-8747-5FF0-0756-45BC9FA9AEB1</generatorID>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0F2347-E9B8-6D5F-FBDF-E39FCB5E1754"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

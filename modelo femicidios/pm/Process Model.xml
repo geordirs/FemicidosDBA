@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="0D59CE73-9637-9C0F-8403-58778E8E2BF9">
+<createdBy>geordi</createdBy>
+<createdTime>2018-05-07 19:32:47 UTC</createdTime>
+<ownerDesignName>modelo femicidios</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
